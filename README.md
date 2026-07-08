@@ -2,7 +2,7 @@
 
 A self-hosted email campaign engine: bulk broadcasts, drip autoresponder series, delivery and engagement webhooks, click tracking, and unsubscribe management, working with 11 email providers over plain SMTP. One small PHP app and one SQLite file, no framework, no Composer, no dependencies.
 
-Email Campaign Engine is the open source release of Email Broadcast, the same engine that runs as a hosted app on aiappsapi.com. If you would rather send without running your own server, the [Email Broadcast app](https://www.aiappsapi.com/apps/emailbroadcast.php) is ready to go, and the [Email Broadcast docs](https://www.aiappsapi.com/docs/emailbroadcast.php) cover the hosted version in depth.
+Email Campaign Engine is the open source release of Email Broadcast, the same engine that runs as a hosted app on aiappsapi.com. If you would rather send without running your own server, the [Email Broadcast app](https://www.aiappsapi.com/apps/emailbroadcast.php) is ready to go, and the [Email Campaign Engine docs](https://www.aiappsapi.com/docs/emailbroadcast.php) on the site cover this engine's setup and full API in depth.
 
 ## What you get
 
