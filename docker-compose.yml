@@ -1,0 +1,16 @@
+services:
+  emailcampaign:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      # Copy config.sample.php to config.php and fill it in before starting.
+      - ./config.php:/app/config.php
+      - ./data:/app/data
+
+  cron:
+    build: .
+    volumes:
+      - ./config.php:/app/config.php
+      - ./data:/app/data
+    command: sh -c "while true; do php /app/cli/cron.php; sleep 600; done"
